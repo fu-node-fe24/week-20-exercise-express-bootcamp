@@ -17,9 +17,10 @@ Följande övningar testar ni med hjälp av insomnia. När er utvecklingsserver 
 1. Skapa ett GET-anrop mot endpointen */hello*. Logga ut ett meddelande i konsollen, och i ditt response skickar du med ett hälsningsmeddelande.
 2. Skapa ett POST anrop mot endpointen */hello*, i anropets body kommer ett namn skickas med. Läs in namnet i koden och i ditt response skickar du med en hälsning till namnet som angavs. Tips: leta efter namnet i *req.body*.
 3. Skapa ett GET-anrop mot endpointen */hello* där man kan skicka med *query parametrar* ex. ```?name=Jesper``` i url:en. Läs in namnet i koden och i ditt response skickar du med en hälsning till namnet som angavs. Tips: leta efter namnet i *req.query*.
-4. Skapa ett POST-anrop mot endpointen */sum*, i anropets body kommer två tal skickas med ex. ```{ "a": 5, "b": 8 }```. Läs in talen och skicka tillbaks summan i ditt response.
-5. Skapa ett GET-anrop mot endpointen */color/:color*, där man i anropet ersätter ```:color``` med en faktisk färg. Läs in den angivna färgen och skicka meddelandet "Din favoritfärg är [färg]" i responset.
-6. Skapa ett POST-anrop mot endpointen */feedback*, där man i anropets body skickar med ett objekt med nycklarna *name* och *message*. Anropet skall sedan returnera ```Tack {name} för din feedback: "{message}"```, ex. "Tack Jesper  för din feedback: "Dålig genomgång!"".
+4. Skapa en egen modul i filen *greeting.js*. Här skapar du en funktion som tar emot ett namn och som returnerar en hälsning innehållandes namnet. Exportera modulen, och importera den i din *server.js*. Använd nu modulen för att returnera hälsningen i uppgift 2 och 3.
+5. Skapa ett POST-anrop mot endpointen */sum*, i anropets body kommer två tal skickas med ex. ```{ "a": 5, "b": 8 }```. Läs in talen och skicka tillbaks summan i ditt response.
+6. Skapa ett GET-anrop mot endpointen */color/:color*, där man i anropet ersätter ```:color``` med en faktisk färg. Läs in den angivna färgen och skicka meddelandet "Din favoritfärg är [färg]" i responset.
+7. Skapa ett POST-anrop mot endpointen */feedback*, där man i anropets body skickar med ett objekt med nycklarna *name* och *message*. Anropet skall sedan returnera ```Tack {name} för din feedback: "{message}"```, ex. "Tack Jesper  för din feedback: "Dålig genomgång!"".
 
 ## API Grunder
 
