@@ -8,6 +8,16 @@
 2. Installera *express* och *nodemon* genom att köra ```npm i express nodemon``` i terminalen.
 3. Konfigurera din **package.json** fil. Lägg till ```"type" : "module"```, samt skapa ett nytt script genom att lägga till ```"dev" : "nodemon [filnamn]"``` under *scripts*.
 4. Skape filen *server.js* och skriv in koden nedan. Detta kan fungera som ett template för alla dina express-applikationer.
+```
+import express from 'express';
+
+const app = express(); // Detta skapar upp en express-applikation
+const PORT = 8080;
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+```
 5. Starta din utvecklingsserver och titta i terminalen. Du bör nu se ```Server is running on port 8080```.
 
 ### Övning 2 - HTTP-anrop
