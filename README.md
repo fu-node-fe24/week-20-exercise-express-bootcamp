@@ -18,7 +18,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 ```
-5. Starta din utvecklingsserver och titta i terminalen. Du bör nu se ```Server is running on port 8080```.
+5. Starta din utvecklingsserver ```npm run dev``` och titta i terminalen. Du bör nu se ```Server is running on port 8080```.
 
 ### Övning 2 - HTTP-anrop
 
