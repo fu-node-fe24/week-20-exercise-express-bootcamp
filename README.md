@@ -36,7 +36,7 @@ Följande övningar testar ni med hjälp av insomnia. När er utvecklingsserver 
 
 ## API Grunder
 
-För följande övningar behöver du skapa en ny mapp som heter data. I den mappen skapar du filen pokemons.js där du klistrar in innehållet från [den här filen](). Importera sedan filen i din *server.js*-fil. Alla dina anrop skall nu starta med endpointen */pokemons*.
+För följande övningar behöver du skapa en ny mapp som heter data. I den mappen skapar du filen pokemons.js där du klistrar in innehållet från [den här filen](./data/pokemons.js). Importera sedan filen i din *server.js*-fil. Alla dina anrop skall nu starta med endpointen */pokemons*.
 Försök även göra dina responses lite med "API:iga" (likt de svar v själva fått när vi anropat APIer).
 
 1. Skapa ett GET-anrop som returnerar ALLA pokemons.
